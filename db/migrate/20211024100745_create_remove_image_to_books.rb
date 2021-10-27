@@ -1,0 +1,9 @@
+class CreateRemoveImageToBooks < ActiveRecord::Migration[5.2]
+  def change
+    create_table :remove_image_to_books do |t|
+      t.string :image_id
+
+      t.timestamps
+    end
+  end
+end
